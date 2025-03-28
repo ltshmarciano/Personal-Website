@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F0ECEB;
+}
+
+hr {
+    border: 0;
+    height: 3px;
+    background: #060606;
+    width: 30%;
+    margin: 0px auto;
+}
+
+h2, h4, p {
+    font-family: Poppins, Roboto, Verdana, san-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    
+}
+
+h3{
+    font-family: 'Noto Serif', 'Georgia Pro', Georgia, Cambria, serif;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+    margin: 20px 100px;
+    font-size: 1.0em;
+}
+
+li, a, button {
+    font-family: 'Noto Serif', 'Georgia Pro', Georgia, Cambria, serif;
+    font-size: 1.125em;
+    color: #060606;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    background: #F0ECEB;
+}
+
+.nav-links {
+    list-style:none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 12px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #630A28;
+    font-weight: 800;
+    font-size: 1.25em;
+}
+
+.nav-links li a.active {
+    position: relative;
+    font-weight: 800;
+}
+
+.nav-links li a.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 3px;
+    background-color:#630A28;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(97, 10, 39, 1);
+    color: #F0ECEB;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color:rgba(99, 10, 40, 0.8);
+}
+
+
+/* ---------------- SECTION BUTTONS ---------------- */
+.section-button {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    margin: 20px 100px 100px 0px;
+    padding: 10px 10%;
+}
+
+/* ---------------- INTRODUCTION ---------------- */
+.introduction {
+    display: inline-block;
+    text-align: center;
+    background-color: #DCD8CC;
+    margin: 50px 0px;
+    padding: 100px 100px;
+    border-top: #060606 1px solid;
+    border-bottom: #060606 1px solid;
+}
+
+.introduction h1 {
+    font-size: 2.5em;
+    color: #630A28;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 5px;
+}
+
+.introduction p {
+    text-align: center;
+    margin-top: 10px; 
+    padding: 0 50px;
+}
+
+.introduction .nav-links {
+    background-color: #F0ECEB;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: fit-content;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* ---------------- SECTION ---------------- */
+
+
+/* ---------------- CONTAINER ---------------- */
+
+.container {
+    display: flex;
+    margin: 50px 225px 20px;
+}
+
+.container img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: 0.3s ease 0s all;
+}
+
+.container img:hover {
+    opacity: 1;
+    transition: 0.3s ease 0s all;
+}
+
+/* ---------------- CONTENT ---------------- */
+
+.content {
+    text-align: left;
+    margin: 0px 0px 0px 20px;
+    padding: 25px;
+    height: 300px;
+    background-color: #E4BFB4;
+    border-radius: 10px;
+}
+
+.content p {
+    padding: 0px 0px;
+    margin: 10px 0px 10px;
+}
+
+.content h4 {
+    font-weight: normal;
+}
+
+.custom-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+    overflow: hidden;
+    background: black;
+    margin: 0 auto;
+}
+
+
+.custom-video iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: none;
+}
