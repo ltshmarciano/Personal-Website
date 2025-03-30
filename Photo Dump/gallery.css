@@ -180,21 +180,24 @@ button:hover {
     width: 200px;
     height: 250px;
     object-fit: cover;
-    opacity: 0.8;
+    opacity: 0.9;
     transition: 0.3s ease 0s all;
     cursor: pointer;
+    filter: saturate(0.8);
+    filter: grayscale(1);
 }
 
 .item:hover {
     border-bottom: #630A28 5px solid;
-    opacity: 1.0;
     transition: 0.3s ease 0s all;
     border-radius: 30px;
 }
 
 .item:hover img {
+    opacity: 1;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    opacity: 1.0;
     transition: 0.3s ease 0s all;
+    filter: saturate(0);
+    filter: grayscale(0);
 }
