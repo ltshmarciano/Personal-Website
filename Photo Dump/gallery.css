@@ -180,14 +180,14 @@ button:hover {
     width: 200px;
     height: 250px;
     object-fit: cover;
-    opacity: 1;
+    opacity: 0.8;
     transition: 0.3s ease 0s all;
     cursor: pointer;
 }
 
 .item:hover {
     border-bottom: #630A28 5px solid;
-    opacity: 0.6;
+    opacity: 1.0;
     transition: 0.3s ease 0s all;
     border-radius: 30px;
 }
