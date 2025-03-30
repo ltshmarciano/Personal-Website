@@ -195,5 +195,6 @@ button:hover {
 .item:hover img {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    opacity: 1.0;
     transition: 0.3s ease 0s all;
 }
