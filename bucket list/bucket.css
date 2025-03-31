@@ -250,6 +250,15 @@ button:hover {
     font-size: 0.875em;
 }
 
+.childhood-container .section-button {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    margin-right: 0px;
+    margin-left: 800px;
+    padding: 50px 0px 50px;
+}
+
 
 /* ---------------- TEENAGE SECTION ---------------- */
 .teenage-container {
@@ -404,6 +413,15 @@ button:hover {
     font-family: Poppins, Roboto, Verdana, sans-serif;
     color: #060606;
     font-size: 0.875em;
+}
+
+.college-container .section-button {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    margin-right: 0px;
+    margin-left: 800px;
+    padding: 50px 0px 50px;
 }
 
 
